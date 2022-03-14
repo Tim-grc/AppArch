@@ -29,4 +29,4 @@ jobs:
     - name: TU2
       run : npm test
     - name: TI
-      run: mvm verify
+      run: mvn verify
