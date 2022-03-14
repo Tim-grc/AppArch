@@ -24,3 +24,9 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: TU1
+      run: mvn test
+    - name: TU2
+      run : npm test
+    - name: TI
+      run: mvm verify
